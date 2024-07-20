@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Coffee Shop Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .header{
+            background:var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px 10px;
+            border-bottom: 0px;
+            position: fixed;
+            z-index: 1000;
+        }
+        .header.logo img{
+            height :96px;
+
+        }
+        .header .navbar a{
+            margin :0px;
+            font-size: 20px;
+            color: blue;
+        }
+        .header .navbar a:hover{
+            color: darkorange;
+            border-bottom: 5px solid white;
+            padding-bottom: 5px;
+        }
+        .icon{
+            display: flex;
+            justify-content:flex-end;
+        }
+        .header .icons a{
+            color: #fff;
+            cursor: pointer;
+            font-size: 10px;
+            margin-left: 2px;
+        }
+        .header .icons div:hover{
+            color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo.jpeg" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </nav>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+
+    </div>
+    </header>
+    
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"85a73295bdaff3a9","version":"2024.2.1","token":"08a46637120a404a963395dd86986b4f"}' crossorigin="anonymous"></script>
+</body>
+</html>
